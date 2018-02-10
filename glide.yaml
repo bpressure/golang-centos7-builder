@@ -1,0 +1,14 @@
+package: .
+import:
+- package: github.com/spf13/viper
+  version: ^1.0.0
+- package: github.com/spf13/cobra
+- package: github.com/willf/bitset
+- package: github.com/tidwall/gjson
+- package: github.com/armon/go-metrics
+- package: github.com/hashicorp/go-immutable-radix
+- package: github.com/hashicorp/golang-lru
+- package: github.com/Shopify/sarama
+  version: ^1.15.0
+- package: github.com/klauspost/compress
+  version: ^1.2.0
