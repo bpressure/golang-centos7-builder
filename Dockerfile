@@ -14,5 +14,14 @@ RUN yum install -y lz4-devel lz4 git
 RUN yum install -y rpm-build rpmdevtools
 
 RUN go get -v github.com/Masterminds/glide
-COPY glide.yaml /project
-RUN glide install
+RUN go get -v github.com/spf13/viper
+RUN go get -v github.com/spf13/cobra
+RUN go get -v github.com/willf/bitset
+RUN go get -v github.com/tidwall/gjson
+RUN go get -v github.com/armon/go-metrics
+RUN go get -v github.com/hashicorp/go-immutable-radix
+RUN go get -v github.com/hashicorp/golang-lru
+RUN go get -v github.com/Shopify/sarama
+RUN go get -v github.com/klauspost/compress
+RUN go get -v github.com/cyberdelia/go-metrics-graphite
+RUN go get -v github.com/shirou/gopsutil
