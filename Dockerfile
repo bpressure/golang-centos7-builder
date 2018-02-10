@@ -18,7 +18,7 @@ RUN go get -v github.com/spf13/viper
 RUN go get -v github.com/spf13/cobra
 RUN go get -v github.com/willf/bitset
 RUN go get -v github.com/tidwall/gjson
-RUN go get -v github.com/armon/go-metrics
+RUN go get -v github.com/rcrowley/go-metrics
 RUN go get -v github.com/hashicorp/go-immutable-radix
 RUN go get -v github.com/hashicorp/golang-lru
 RUN go get -v github.com/Shopify/sarama
