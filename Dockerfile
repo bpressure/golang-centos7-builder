@@ -24,4 +24,4 @@ RUN go get -v github.com/Masterminds/glide\
       github.com/klauspost/compress\
       github.com/cyberdelia/go-metrics-graphite\
       github.com/shirou/gopsutil\
-      github.com/klauspost/cpuid\
+      github.com/klauspost/cpuid
