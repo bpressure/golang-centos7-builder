@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-RUN curl -O https://dl.google.com/go/go1.9.4.linux-amd64.tar.gz && tar xzf go*gz -C /usr/local && rm -f go*gz
+RUN curl -O https://dl.google.com/go/go1.10.linux-amd64.tar.gz && tar xzf go*gz -C /usr/local && rm -f go*gz
 ENV GOROOT=/usr/local/go
 ENV GOPATH=/usr/lib/go
 ENV PATH=$GOPATH/bin:$GOROOT/bin:$PATH
